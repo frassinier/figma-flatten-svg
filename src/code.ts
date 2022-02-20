@@ -36,7 +36,7 @@ figma.ui.onmessage = msg => {
   if (msg.type === 'create-rectangles') {
     const nodes = [];
     const icon = figma.createNodeFromSvg(svgString)
-    icon.name = "Icon";
+    icon.name = "Icon_";
     icon.x = figma.viewport.center.x
     icon.y = figma.viewport.center.y
     figma.currentPage.appendChild(icon);

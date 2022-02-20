@@ -20,7 +20,7 @@ class App extends React.Component {
   onCancel = () => {
     parent.postMessage({ pluginMessage: { type: 'cancel' } }, '*')
   }
-
+a
   render() {
     return <div>
       <p><span ref={this.countRef} /></p>
